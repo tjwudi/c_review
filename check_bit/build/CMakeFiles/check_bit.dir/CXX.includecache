@@ -11,10 +11,12 @@ iostream
 -
 string
 -
-cstdlib
--
 cstdio
 -
-util.h
+climits
 -
+util.h
+/home/john/Desktop/c_review/check_bit/util.h
+
+/home/john/Desktop/c_review/check_bit/util.h
 
