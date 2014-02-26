@@ -2,6 +2,7 @@
 #include <string>
 #include <cstdio>
 #include <climits>
+#include <cassert>
 #include "util.h"
 
 using namespace std;
@@ -16,5 +17,9 @@ int main () {
   cout << buf << endl;
   sprintf(buf, "so the integer type on this machine has %d bytes", count_bits / CHAR_BIT);
   cout << buf << endl;
+
+  // use assertion to check
+  assert(sizeof (a) == count_bits / CHAR_BIT);
+  cout << "And the assertion is all good!" << endl;
   return 0;
 }
