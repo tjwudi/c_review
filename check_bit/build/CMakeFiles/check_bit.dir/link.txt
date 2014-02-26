@@ -1,0 +1,1 @@
+/usr/bin/c++       CMakeFiles/check_bit.dir/check_bit.cpp.o  -o check_bit -rdynamic 
