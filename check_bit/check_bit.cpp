@@ -10,7 +10,7 @@ using namespace std;
 char buf[100] = { 0 };
 
 int main () {
-  int a = ~0U >> 1, count_bits = count_of_bits(a);
+  int a(~0U >> 1), count_bits = count_of_bits(a);
   sprintf(buf, "the integer type on this machine has %d bits", count_bits);
   cout << buf << endl;
   sprintf(buf, "and one byte has %d bits ...", CHAR_BIT);
