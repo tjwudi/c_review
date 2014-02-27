@@ -1,4 +1,7 @@
-template <typename Type>
+#ifndef STACK_H
+#define STACK_H
+
+template <class Type>
 class Stack {
 private:
   enum { MAX = 10 };
@@ -8,6 +11,8 @@ public:
   Stack();
   bool isempty()const;
   bool isfull()const;
-  bool push(const Type& item);
-  bool pop(Type &item);
-}
+  void push(const Type& item);
+  void pop(Type &item);
+};
+
+#endif
